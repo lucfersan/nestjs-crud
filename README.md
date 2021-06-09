@@ -19,55 +19,89 @@
     <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
   <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
 </p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## 📚 About The Project
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+I wanted to try another framework, instead of Express, so I decided to use Nest.js.
 
-## Installation
+At first, I was a little confused, but as time went by I could figure how to make this simple project work, and this is thanks to the awesome documentation provided by Nest.
 
-```bash
-$ npm install
-```
+My first impression of this framework was amazing. I really enjoyed using the decorators, which gave me a sense of customization and freedom to develop new features.
 
-## Running the app
+I'm looking forward to building more things with this framework soon.
+
+## 🚀 Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/lucfersan/nestjs-crud
+   ```
+2. Install NPM packages
+   ```sh
+   yarn
+   ```
+3. Create a docker container
+   ```sh
+   docker run --name first_nest_app -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+   ```
+4. Create database named: first_nest_app
+
+## 💻 Running the app
 
 ```bash
 # development
 $ npm run start
+or
+$ yarn start
 
 # watch mode
 $ npm run start:dev
+or
+$ yarn start:dev
 
 # production mode
 $ npm run start:prod
+or
+$ yarn start:prod
 ```
 
-## Test
+## 🧪 Test
 
 ```bash
 # unit tests
 $ npm run test
+or
+$ yarn test
 
 # e2e tests
 $ npm run test:e2e
+or
+$ yarn test:e2e
 
 # test coverage
 $ npm run test:cov
+or
+$ yarn test:cov
 ```
 
-## Support
+## 👍 Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
+## 🗞️ License
 
 Nest is [MIT licensed](LICENSE).
+
+## 🤝 Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📧 Contact
+
+Lucas Fernandes - fernandes.lucas11@outlook.com
